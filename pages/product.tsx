@@ -145,7 +145,7 @@ export default function Product() {
                 <UserButton showName={true} />
             </div>
 
-            {/* Subscription Protection */}
+            {/* Subscription Protection 
             <Protect
                 plan="premium_subscription"
                 fallback={
@@ -163,9 +163,9 @@ export default function Product() {
                         </div>
                     </div>
                 }
-            >
+            >*/}
                 <ConsultationForm />
-            </Protect>
+            {/*</Protect>*/}
         </main>
     );
 }
